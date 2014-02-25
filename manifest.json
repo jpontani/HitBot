@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "LootBot",
+    "description": "This extension provides LootBot functionality for Hitbox.tv",
+    "version": "0.1",
+
+    "permissions": [
+        "http://www.hitbox.tv/"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "dashboard.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://www.hitbox.tv/dashboard/*"],
+            "js": ["js/chat.js"]
+        }
+    ]
+}
