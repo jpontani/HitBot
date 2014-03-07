@@ -15,7 +15,7 @@
     "content_scripts": [
         {
             "matches": ["http://www.hitbox.tv/dashboard/*"],
-            "js": ["js/chat.js"]
+            "js": ["js/jquery.js", "js/database.js", "js/chat.js"]
         }
     ]
 }

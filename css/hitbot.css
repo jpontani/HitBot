@@ -1,0 +1,28 @@
+body {
+    width: 600px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: .9em;
+}
+
+#left, #right {
+    display: inline-block;
+}
+
+#header {
+    border-bottom: solid 1px #ccc;
+}
+
+#left {
+    width: 35%;
+    float: left;
+    border-right: solid 1px #ccc;
+}
+#right {
+    width: 64%;
+    float: right;
+}
+#footer {
+    border-top: solid 1px #ccc;
+    clear: both;
+    font-size: .7em;
+}
